@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+    .contactos {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+        .estado-usuario {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 300;
+        }
+        .datos-usuario {
+            display: flex;
+            align-items: center;
+            margin-left: 2em;
+            margin-top: 1em;
+            text-align: left;
+            justify-content: flex-start;
+        }
+        .datos-usuario span {
+            margin-left: 12px;
+        }
+        .estado {
+            font-size: 12px;
+            color: #808080;
+        }
+        .datos-usuario img {
+            border-radius: 50%;
+            width: 2.5em;
+            height: 2.5em;
+        }
+        .datos-usuario-item {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .options {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 2em;
+            margin-top: 0.5em;
+        }
+            .options i {
+                margin-left: 10px;
+            }
+        .nuevo-chat-container {
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+            padding: 10%;
+        }
+            .nuevo-chat button {
+                height: 4em;
+                width: 17em;
+                background-color: #A491D2;
+                border: none;
+                color: white;
+            }
+            .nuevo-chat button:hover {
+                background-color: #8370b4;
+                color: white;
+            }
+
+        .chat {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 1em;
+            padding-bottom: 1em;
+            border-bottom: 1px solid lightgray;
+        }
+        .chat img {
+            margin-left: 2em;
+            border-radius: 50%;
+            width: 3em;
+            height: 3em;
+            padding-right: 1em;
+        }
+        .chat-item {
+            font-style: normal;
+            display: flex;
+            flex-direction: column;
+            font-weight: 300;
+        }
+        .last-message {
+            font-weight: 200;
+            color: #808080;
+        }
+
+    .principal {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-left: 1px solid lightgray;
+    }
+        .principal img {
+            width: 300px;
+            border-radius: 2%;
+        }
+        .principal p {
+            text-align: center;
+        }
+
